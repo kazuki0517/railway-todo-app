@@ -1,4 +1,5 @@
 @charset "utf-8";
+@use '../base';
 
 .signup {
   width: 500px;
@@ -6,7 +7,7 @@
 }
 .signup-form {
   margin: 25px 0;
-  color: #555555;
+  color: base.$main-font-color;
 }
 
 .email-input, .name-input, .password-input {
@@ -17,7 +18,7 @@
 }
 
 .signup-button {
-  background-color: #242F9B;
+  background-color: base.$main-button-color;
   color: #ffffff;
   width: 100px;
   height: 40px;
@@ -25,5 +26,5 @@
 }
 
 .error-message {
-  color: #ff3333;
+  color: base.$error-font-color;
 }

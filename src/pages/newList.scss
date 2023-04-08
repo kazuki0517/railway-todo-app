@@ -1,4 +1,5 @@
 @charset "utf-8";
+@use '../base';
 
 .new-list {
   width: 1000px;
@@ -6,7 +7,7 @@
 }
 
 .new-list-form {
-  color: #555555;
+  color: base.$main-font-color;
 }
 
 .new-list-title {
@@ -15,7 +16,7 @@
 }
 
 .new-list-button {
-  background-color: #242F9B;
+  background-color: base.$main-button-color;
   color: #ffffff;
   width: 80px;
   height: 40px;

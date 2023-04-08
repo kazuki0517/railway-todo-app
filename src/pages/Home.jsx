@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useCookies } from "react-cookie";
 import axios from "axios";
 import { url } from "../const";
-import "./home.css";
+import "./home.scss";
 import { Header } from "../components/Header";
 import { Link } from "react-router-dom";
 

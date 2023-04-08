@@ -1,0 +1,37 @@
+@charset "utf-8";
+@use '../base';
+
+.edit-task {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.edit-task-form {
+  color: base.$main-font-color;
+}
+
+.edit-task-title, .edit-task-detail {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+.delete-task-button {
+  color: #ff3333;
+  border: solid 1px #ff3333;
+  width: 80px;
+  height: 40px;
+  margin: 25px 5px;
+  border-radius: 5px;
+}
+
+.edit-task-button {
+  background-color: base.$main-button-color;
+  color: #ffffff;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: base.$error-font-color;
+}

@@ -1,20 +1,21 @@
 @charset "utf-8";
+@use '../base';
 
-.edit-task {
+.edit-list {
   width: 1000px;
   margin: 0 auto;
 }
 
-.edit-task-form {
-  color: #555555;
+.edit-list-form {
+  color: base.$main-button-color;
 }
 
-.edit-task-title, .edit-task-detail {
+.edit-list-title {
   width: 300px;
   margin-bottom: 25px;
 }
 
-.delete-task-button {
+.delete-list-button {
   color: #ff3333;
   border: solid 1px #ff3333;
   width: 80px;
@@ -23,8 +24,8 @@
   border-radius: 5px;
 }
 
-.edit-task-button {
-  background-color: #242F9B;
+.edit-list-button {
+  background-color: base.$main-button-color;
   color: #ffffff;
   width: 80px;
   height: 40px;
@@ -32,5 +33,5 @@
 }
 
 .error-message {
-  color: #ff3333;
+  color: base.$error-font-color;
 }
